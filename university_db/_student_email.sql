@@ -2,7 +2,7 @@ USE `UniversityDB`;
 
 -- Step 2: Update the Email for Bob Johnson
 UPDATE `Students`
-SET `Email` = 'bob.j@example.com'
+SET `Email` = 'bob.john@example.com'
 WHERE `FirstName` = 'Bob' AND `LastName` = 'Johnson';  -- More robust WHERE clause
 
 -- Alternative using StudentID (preferred if you know the ID):
